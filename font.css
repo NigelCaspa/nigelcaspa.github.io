@@ -1,0 +1,8 @@
+p{color: rgb(241, 98, 98); 
+    font-family: 'Lora', serif;
+    font-size: 20px;}
+
+@media  (max-width: 500px) {
+    p {color: blue;}
+}
+
