@@ -12,5 +12,6 @@ a.subraya-enlace {box-shadow: inset 0 -0.25rem rgb(241, 243, 151);}
 /* Disminuir tamaño de letra en responsive (desactivado) */
 
 :root { font: 22px/24px 'Lora', serif;}
+
 @media (max-width: 8.5in) {:root {font-size: 18px;}}
 
