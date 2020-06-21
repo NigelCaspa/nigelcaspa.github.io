@@ -4,6 +4,7 @@ article {
     display: grid;
     grid-template-columns: 1fr 0.5in [start] 1.25in 5in 1.25in [end] 0.5in 1fr; 
     height: 100%;
+    width: 100%;
 
     background: linear-gradient(rgb(201, 201, 201), white 6.55rem);
 
