@@ -1,0 +1,48 @@
+.h1-serif{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 33px;
+    font-weight: 700;
+}
+
+.h2-serif{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 16px;
+}
+
+.p-serif{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+ }
+ .a-serif
+
+ .img-text-serif{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 16px;  
+ }
+.cita-serif{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 14px;
+    padding: 30px;
+}
+
+
+.read-time{
+    font-family: 'Libre Baskerville', serif;
+    color:rgb(24,119,242);
+    font-style: unset;
+    font-size: 14px;
+}
+
+p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    
+}
+
+h1{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+}
+
