@@ -1,13 +1,13 @@
 <!doctype html>
 <html lang="en">
-  <head>
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Plantilla de blog</title>
+    <title>Nigel Caspa</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="title" content="article">
-    <meta name="description" content="Blog Nigel Caspa">
+    <meta name="description" content="Página web personal">
     <meta name="keywords" content="historia, historia económica, opinión, history, economic history, opinion ">
     <meta name="author" content="Author">
     <meta name="copyright" content="Nigel Caspa">
@@ -15,151 +15,176 @@
     <meta name="robots" content="follow">  
     <!-- Meta tags para Facebook (determina la preview imagen y descripción del link en Facebook) -->
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Titulo publicación Facebook"> <!--cambiar esto se coloca como titulo en Facebook-->
-    <meta property="og:description" content="Descripción Facebook"> <!--cambiar, eso se coloca como subtítulo -->
+    <meta property="og:title" content="Nigel Caspa"> <!--cambiar esto se coloca como titulo en Facebook-->
+    <meta property="og:description" content="Página web personal"> <!--cambiar, eso se coloca como subtítulo -->
     <meta property="og:image" content="https://i.imgur.com/apEKH0W.jpg"> <!--cambiar -->
     <meta property="og:url" content="https://nigelcaspa.github.io/"> <!--cambiar -->
-    <meta property="og:site_name" content="Nombre sitio Nigel Caspa"> <!--cambiar -->
+    <meta property="og:site_name" content="Nigel Caspa"> <!--cambiar -->
     <meta property="fb:app_id" content="id app" /> <!--cambiar -->
     <!-- <Meta tags para Twitter (determina la preview imagen y descripción del link en Twitter) -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://nigelcaspa.github.io/"> <!--cambiar -->
-    <meta property="twitter:title" content="Contenido Twitter"> <!--cambiar -->
-    <meta property="twitter:description" content="Descripción Twitter""> <!--cambiar -->
+    <meta property="twitter:title" content="Nigel Caspa"> <!--cambiar -->
+    <meta property="twitter:description" content="Página web personal"> <!--cambiar -->
     <meta property="twitter:image" content="https://i.imgur.com/apEKH0W.jpg"> <!--cambiar -->
     <!-- links icono de pestaña -->
-    <link rel="icon" href="./images/icon.svg"> <!--cambiar -->
+    <link rel="icon" href="./icons/icon.svg"> <!--cambiar -->
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <!-- <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"> -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-
     <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="text-serif.css">
-    <link rel="stylesheet" href="fondo-resaltado.css">
+    <!-- Estilos personalizados en CSS -->
+    <link rel="stylesheet" href="estilos.css">
     <!-- Global site tag (gtag.js) - Google Analytics NO HAY POR AHORA. Borrar esto cuando se obtenga -->
-  </head>
-  <body class="fondo-plomo">
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-    <a class="navbar-brand" href="https://nigelcaspa.github.io/">
-        <img src="./images/nigelcaspa.svg" width="180" height="40" class="d-inline-block align-top" alt="" loading="lazy">
-    </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+</head>
 
+<body class="fondo-plomo">
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  <a class="navbar-brand" href="https://nigelcaspa.github.io/">
+    <img src="./icons/nigelcaspa.svg" width="180" height="40" class="d-inline-block align-top" alt="" loading="lazy">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+  </button>
   <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
     <ul class="navbar-nav mr-auto text-center mt-2 mt-lg-0">
       <li class="nav-item active">
         <a class="nav-link" href="https://nigelcaspa.github.io/">Home<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/cv.html">CV</a>
+        <a class="nav-link" href="/cv/cv.html">CV</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Publicaciones</a>
+        <a class="nav-link" href="/publications/publications.html">Publicaciones</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/hitoriacorta.html">#HistoriaCorta</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="https://www.facebook.com/malditochaki">Maldito Ch'aki</a>
+        <a class="nav-link" href="/historiacorta.html">#HistoriaCorta</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Contacto</a>
       </li>
-      <!-- <li class="nav-item">
-        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
-      </li> 
-      <!-- <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle p-serif" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Otros proyectos
-        </a>
-        <div class="dropdown-menu p-serif" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item p-serif" href="#">Proyecto A</a>
-          <a class="dropdown-item p-serif" href="#">Proyecto B</a>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Proyectos</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="https://www.facebook.com/malditochaki" target="_blank">Maldito Ch'aki (Facebook)</a>
+          <a class="dropdown-item" href="https://www.facebook.com/histori4s" target="_blank">Historias (Facebook)</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item p-serif" href="#">Proyecto C</a>
-          <a class="dropdown-item p-serif" href="#">Proyecto D</a>
+          <a class="dropdown-item" href="#">Data Transporte Bolivia</a>
+          <a class="dropdown-item" href="#">Data Transporte Ecuador</a>
         </div>
-      </li> -->
+      </li>
     </ul>
-    <div class="d-flex justify-content-center">
-        <a href="https://www.facebook.com/nigel.caspa">
-          <img src="./images/facebook.svg" width="30" height="30" class="d-inline-block ml-3" alt="">
-        </a>
-        <a href="https://twitter.com/nigelcaspa">
-          <img src="./images/twitter.svg" width="30" height="30" class="d-inline-block ml-3" alt="">
-        </a>
-        <a href="https://www.youtube.com/channel/UC4l7tmDIxroZVXOAf8QYRIw">
-          <img src="./images/youtube.svg" width="30" height="30" class="d-inline-block ml-3 " alt="">
-        </a>
-        <a href="https://open.spotify.com/user/bnkfk1bjnvo2hryizzpb8qzje">
-          <img src="./images/spotify.svg" width="30" height="30" class="d-inline-block ml-3" alt="">
-        </a>
-    </div>
-    <!-- <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form> -->
+  <div class="d-flex justify-content-center">
+  <a href="https://www.facebook.com/nigel.caspa" target="_blank">
+    <img src="./icons/facebook.svg" width="30" height="30" class="d-inline-block ml-3" alt="">
+  </a>
+  <a href="https://twitter.com/nigelcaspa" target="_blank">
+    <img src="./icons/twitter.svg" width="30" height="30" class="d-inline-block ml-3" alt="">
+  </a>
+  <a href="https://www.youtube.com/channel/UC4l7tmDIxroZVXOAf8QYRIw" target="_blank">
+    <img src="./icons/youtube.svg" width="30" height="30" class="d-inline-block ml-3 " alt="">
+  </a>
+  <a href="https://open.spotify.com/user/bnkfk1bjnvo2hryizzpb8qzje" target="_blank">
+    <img src="./icons/spotify.svg" width="30" height="30" class="d-inline-block ml-3" alt="">
+  </a>
+  </div>
   </div>
 </nav>
+
+<!-- Publicación de cabecera -->
 <div class="container mt-4">
+  <a href="#" style="text-decoration: none; color: #3c4041;">
     <div class="jumbotron">
       <img src="https://i.imgur.com/apEKH0W.jpg" class="card-img-top" alt="...">
-        <h1 class="display-4">Publicación relevante</h1>
-        <p class="lead">Este será el apartado donde anunciaremos la nota o actividad más relevante. This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-        <!-- <hr class="my-4">
-            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p> -->
-            <button type="button" class="btn btn-warning">Leer más</button>
-      </div>
+      <h1 class="display-4">Publicación relevante</h1>
+      <p class="lead">Este será el apartado donde anunciaremos la nota o actividad más relevante. This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+    </div>
+  </a>  
 </div>
-
-
-<!-- card -->
+<!-- PUBLICACIONES SECUNDARIAS A-->
 <div class="container mt-4">
-    <div class="card-deck">
-        <div class="card">
-          <img src="https://i.imgur.com/apEKH0W.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h3 class="card-title">Publicación 1</h3>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <button type="button" class="btn btn-warning">Leer más</button>
-          </div>
+<!-- Publicación secundaria 1 -->
+  <div class="card-deck">
+    <a href="#" style="text-decoration: none; color: #3c4041;">
+    <div class="card">
+      <img src="https://i.imgur.com/apEKH0W.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3 class="card-title">Publicación 1</h3>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
         </div>
-        <div class="card">
-          <img src="https://i.imgur.com/apEKH0W.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h3 class="card-title">Publicación 2</h3>
-            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-            <button type="button" class="btn btn-warning">Leer más</button>
-          </div>
-        </div>
-        <div class="card">
-          <img src="https://i.imgur.com/apEKH0W.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h3 class="card-title">Publicación 3</h3>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-            <button type="button" class="btn btn-warning">Leer más</button>
-          </div>
-        </div>
+    </a>
+  </div>
+<!-- Publicación secundaria 2 -->
+  <div class="card">
+    <a href="#" style="text-decoration: none; color: #3c4041;">
+      <img src="https://i.imgur.com/apEKH0W.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h3 class="card-title">Publicación 2</h3>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
       </div>
-      <br>
+    </a>
+  </div>
+<!-- Publicación secundaria 3 -->
+  <div class="card">
+    <a href="#" style="text-decoration: none; color: #3c4041;">
+      <img src="https://i.imgur.com/apEKH0W.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3 class="card-title">Publicación 3</h3>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        </div>
+    </a>
+  </div>
 </div>
+<br>
+<!-- Publicación secundaria A -->
+<div class="card-deck">
+  <a href="#" style="text-decoration: none; color: #3c4041;">
+  <div class="card">
+    <img src="https://i.imgur.com/apEKH0W.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h3 class="card-title">Publicación 1</h3>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+  </a>
+</div>
+<!-- Publicación secundaria B -->
+<div class="card">
+  <a href="#" style="text-decoration: none; color: #3c4041;">
+    <img src="https://i.imgur.com/apEKH0W.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h3 class="card-title">Publicación 2</h3>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+    </div>
+  </a>
+</div>
+<div class="card">
+  <a href="#" style="text-decoration: none; color: #3c4041;">
+    <img src="https://i.imgur.com/apEKH0W.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h3 class="card-title">Publicación 3</h3>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      </div>
+  </a>
+</div>
+</div>
+</div>
+<br>
+<!-- FOOTER -->
 <footer class="bg-light text-center text-lg-start">
   <!-- Copyright -->
   <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
     © 2021 Copyright:
     <a class="text-dark" href="https://mdbootstrap.com/">Nigel Caspa</a>
   </div>
-  <!-- Copyright -->
+<!-- Copyright -->
 </footer>
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-  </body>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
 </html>

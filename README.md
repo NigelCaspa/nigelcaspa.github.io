@@ -1,2 +1,2 @@
 # Nigel Caspa
-Blog de historia y opinión
+Blog personal de un historiador boliviano y algunos de sus proyectos.
